@@ -1,0 +1,2 @@
+{"$metadata":{"id":"fixture-normal-1"},"timestamp":1793448000000,"$workers":{"event":{"request":{"method":"GET","url":"https://example.test/posts/test?secret=fixture-only","headers":{"cf-connecting-ip":"192.0.2.1"}},"response":{"status":200}}}}
+{"$metadata":{"id":"fixture-failure-1"},"timestamp":1793448001000,"$workers":{"event":{"request":{"method":"POST","url":"https://example.test/api/revalidate?secret=fixture-only","headers":{"cf-connecting-ip":"192.0.2.2"}},"response":{"status":401}}}}

@@ -1,0 +1,13 @@
+**/data/
+**/config.local.json
+**/__pycache__/
+*.pyc
+.env
+.env.*
+**/.env
+**/.env.*
+*.sqlite
+*.sqlite3
+*.db
+*.log
+~$*.pptx

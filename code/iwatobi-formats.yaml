@@ -1,0 +1,6 @@
+formats:
+  - name: cloudflare-bridge
+    files: ['access.log']
+    regex: '^(?P<timestamp>[^\t]+)\t(?P<client_hash>[^\t]+)\t(?P<request_method>[^\t]+)\t(?P<request_uri>[^\t]+)\t(?P<status>\d{3})$'
+    logsource:
+      category: webserver
